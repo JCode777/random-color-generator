@@ -1,0 +1,50 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#randoSquare {
+    display: inline-block;
+    width: 90vw;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+#colorText {
+    line-height: 260px;
+}
+
+button {
+    width: 200px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+@media screen and (min-width: 600px) {
+
+    #randoSquare {
+        display: block;
+        width: 500px;
+        height: 500px;
+        margin: 20px auto;
+        background-color: #ffffff;
+    }
+
+    button {
+        width: 200px;
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    #colorText {
+        line-height: 500px;
+    }
+    
+}
