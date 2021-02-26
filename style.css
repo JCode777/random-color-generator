@@ -44,6 +44,7 @@ button {
         padding: 20px;
         border-radius: 16px;
         background-color: #ffffff;
+        font-weight: normal;
     }
 
     #colorText {
